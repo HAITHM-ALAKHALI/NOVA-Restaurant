@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/Login.css">
+</head>
+<body>
+    <a href="../index.html" target="_blank"><button class="corner-button">Home</button></a>
+    <div class="login-container">
+        <h2 class="text-center mb-4">Login</h2>
+        <form action="#" method="post">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                <div class="invalid-feedback">
+                    Please enter your password.
+                </div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                <label class="form-check-label" for="rememberMe">Remember Me</label>
+            </div>
+            <button type="submit" class="btn btn-custom w-100">Login</button>
+        </form>
+        <p class="text-center mt-3">
+            <a href="#" class="text-decoration-none text-warning">Forgot Password?</a>
+        </p>
+    </div>
+</body>
+</html>

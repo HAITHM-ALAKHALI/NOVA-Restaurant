@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #223f3f;
+    width: 100%;
+    height: 100vh;
+    padding: 0% 8%;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+}
+header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start-header{
+    display: flex;
+    position: relative;
+}
+
+.start-header h2 {
+    font-family: "Story Script", sans-serif;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 800;
+}
+.start-header img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -4px;
+    left: -50px;
+}
+.end-header{
+    display: flex;
+}
+
+.end-header ul li{
+    display: inline-block;
+    padding-left: 25px;
+    opacity: 0.7;
+    width: 90px;
+}
+.end-header ul li:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.end-header ul li a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.home-main{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.home-main main{
+    display: flex;
+    width: 50%;
+    height: 90%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.home-main main h1{
+    font-family: "Story Script", sans-serif;
+    font-size: 50px;
+}
+.home-main main p{
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+.home-main main p span{
+    display: block;
+    text-align: center;
+}
+.home-main main a button{
+    background-color: rgba(0,0,0, 0);
+    font-family: "Libre Baskerville", serif;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 33px;
+    border-radius: 15px;
+    border:2px solid #fff;
+}
+.home-main main a button:hover{
+    background-color: #de9b44;
+    border:2px solid #de9b44;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:  0.6s;
+}
+.home-main aside{
+    width: 50%;
+    height: 90%;
+    position: relative;
+}
+.home-main aside .card{
+    width: 100%;
+    height: 100%;
+    background-image: url('../IMAGES/Home_Page_2.png');
+    background-position: center;
+    background-size: 530px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+@media (max-width: 1170px) {
+    .home-main aside{
+        display: none;
+    }
+    .home-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .end-header ul li {
+        font-size: 15px;
+    }
+}
+@media (max-width: 740px) {
+    body {
+        padding: 0% 4%;
+    }
+    header .start-header h2 {
+        font-size: 20px;
+    }
+    .start-header img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -4px;
+    left: -50px;
+}
+    .end-header ul li {
+        padding-left: 15px;
+        width: 70px;
+        font-size: 13px;
+        display: inline;
+    }
+    .home-main main h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .home-main main p {
+        font-size: 10px;
+    }
+    .home-main main a button {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    header .start-header{
+        padding-left: 50px;
+    }
+    header .start-header img{
+        left: 0px;
+        top: -3px;
+    }
+}
+@media (max-width: 424px){
+    body {
+        padding: 0% 2%;
+    }
+    header .start-header{
+        width: 30%;
+    }
+    header .start-header h2 {
+        font-size: 15px;
+    }
+    header .start-header img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+}
+    .end-header ul li {
+        padding-left: 15px;
+        width: 50px;
+        font-size: 9px;
+        display: inline;
+    }
+    .home-main{
+        justify-content: center;
+        align-items: center;
+    }
+    .home-main main h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .home-main main p {
+        font-size: 10px;
+    }
+    .home-main main a button {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+    header .start-header{
+        padding-left: 40px;
+    }
+}
+@media (max-width: 360px){
+    header .start-header{
+        width: 25%;
+    }
+    header .start-header h2 {
+        font-size: 13px;
+    }
+    header .start-header img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -2px;
+    left: 8px;
+}
+.end-header ul li {
+        padding-left: 10px;
+        width: 50px;
+        font-size: 8px;
+        display: inline;
+    }
+    .home-main main h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .home-main main p {
+        font-size: 6px;
+    }
+    .home-main main a button {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+}

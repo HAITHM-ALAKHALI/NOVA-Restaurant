@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #223f3f;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.login-container {
+    background-color: #722c46;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+}
+
+h2 {
+    font-family: "Story Script", sans-serif;
+    color: #de9b44;
+    font-weight: 600;
+}
+
+.btn-custom {
+    background-color: #de9b44;
+    border: none;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #c88a33;
+}
+
+.form-control:focus {
+    border-color: #de9b44;
+    box-shadow: 0 0 0 0.25rem rgba(222, 155, 68, 0.25);
+}
+
+.corner-button {
+    width: 70px;
+    height: 30px;
+    font-family: "Libre Baskerville", serif;
+    background-color: #de9b44;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0px 0px 0px 10px;
+    border: 1px solid #de9b44;
+    font-weight: 700;
+    color: #223f3f;
+}
+
+.corner-button:hover {
+    cursor: pointer;
+    right: 5px;
+    border: 1px solid #de9b44;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 3% 3%;
+    }
+
+    .login-container {
+        padding: 1.5rem;
+        max-width: 350px;
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .form-label {
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        padding: 8px;
+        font-size: 0.9rem;
+        border-radius: 8px;
+    }
+
+    .form-control::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .btn-custom {
+        padding: 8px;
+        font-size: 0.9rem;
+        border-radius: 8px;
+    }
+
+    .form-check-label {
+        font-size: 0.9rem;
+    }
+
+    .corner-button {
+        width: 60px;
+        height: 25px;
+        font-size: 0.9rem;
+        border-radius: 0px 0px 0px 8px;
+    }
+
+    .corner-button:hover {
+        right: 3px;
+        transform: scale(1.05);
+    }
+
+    .text-center.mt-3 a {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+    body {
+        padding: 2% 2%;
+    }
+
+    .login-container {
+        padding: 1rem;
+        max-width: 300px;
+        border-radius: 6px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-label {
+        font-size: 0.8rem;
+    }
+
+    .form-control {
+        padding: 6px;
+        font-size: 0.8rem;
+        border-radius: 6px;
+    }
+
+    .form-control::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .btn-custom {
+        padding: 6px;
+        font-size: 0.8rem;
+        border-radius: 6px;
+    }
+
+    .form-check-label {
+        font-size: 0.8rem;
+    }
+
+    .corner-button {
+        width: 50px;
+        height: 22px;
+        font-size: 0.8rem;
+        border-radius: 0px 0px 0px 6px;
+    }
+
+    .corner-button:hover {
+        right: 2px;
+        transform: scale(1.05);
+    }
+
+    .text-center.mt-3 a {
+        font-size: 0.8rem;
+    }
+}

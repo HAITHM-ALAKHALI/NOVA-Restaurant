@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" type="text/css" href="../engine0/style.css" />
+    <script defer src="https://kit.fontawesome.com/8159f52568.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../engine0/jquery.js"></script>
+</head>
+<body>
+    <a href="../index.html" target="_blank"><button type="button">Home</button></a>
+    <div class="containers">
+        <aside>
+            <p>Contact</p>
+            <h3>Get in touch</h3>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="u-name">Name:</label>
+                    <input type="text" placeholder="Your name..." minlength="3"  id="u-name" name="user-name" required>
+                    <label for="u-email">Email:</label>
+                    <input type="email" placeholder="example@gmail.com" id="u-email" name="user-email" required>
+                    <label for="u-message">Message:</label>
+                    <textarea placeholder="Write your message here..." minlength="10" id="u-message" name="user-message" required></textarea>
+                    <button type="submit">Send now</button>
+                </form>
+            </div>
+        </aside>
+        <main>
+            <div class="children">
+                <div class="container-cards">
+                    <a href="tel:+1234567890" target="_blank">
+                        <div class="card card-1">
+                            <div class="logo"></div>
+                            <p>Phone number</p>
+                        </div>
+                    </a>
+                    <a href="mailto:example@domain.com" target="_blank">
+                        <div class="card card-2">
+                            <div class="logo"></div>
+                            <p>Email Address</p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/1234567890" target="_blank">
+                        <div class="card card-3">
+                            <div class="logo"><i class="fa-brands fa-whatsapp"></i></div>
+                            <p>WhatsApp</p>
+                        </div>
+                    </a>
+                    <a href="https://maps.google.com" target="_blank">
+                        <div class="card card-4">
+                            <div class="logo"><i class="fa-solid fa-location-dot"></i></div>
+                            <p>Our location</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="location-img"></div>
+                <div class="slider">
+                    
+                </div>
+        </div>
+    </main>
+    </div>
+    <script src="https://kit.fontawesome.com/8159f52568.js" crossorigin="anonymous"></script>
+</body>
+</html>
