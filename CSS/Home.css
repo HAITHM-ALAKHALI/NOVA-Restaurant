@@ -151,11 +151,11 @@ header{
         display: inline;
     }
     .home-main main h1 {
-        font-size: 30px;
+        font-size: 29px;
         text-align: center;
     }
     .home-main main p {
-        font-size: 10px;
+        font-size: 9px;
     }
     .home-main main a button {
         padding: 5px 20px;
@@ -244,3 +244,4 @@ header{
     }
 
 }
+
