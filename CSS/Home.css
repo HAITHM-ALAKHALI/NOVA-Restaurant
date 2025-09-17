@@ -197,11 +197,11 @@ header{
         align-items: center;
     }
     .home-main main h1 {
-        font-size: 25px;
+        font-size: 26px;
         text-align: center;
     }
     .home-main main p {
-        font-size: 6px;
+        font-size: 7px;
     }
     .home-main main a button {
         padding: 5px 20px;
@@ -244,5 +244,6 @@ header{
     }
 
 }
+
 
 
